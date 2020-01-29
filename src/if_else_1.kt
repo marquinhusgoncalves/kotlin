@@ -1,23 +1,23 @@
 // Seção 08 - Controle de fluxo
 // if - else
 
-fun maiorDeIdade(idade: Int){
-    if(idade >= 18){
+fun maiorDeIdade(idade: Int) {
+    if (idade >= 18) {
         println("Maior de idade!")
     } else {
         println("Não é maior de idade!")
     }
 }
 
-fun calculaBonusTres(cargo: String, salario: Float): Float{
+fun calculaBonusTres(cargo: String, salario: Float): Float {
     // Gerente Junior, Gerente Senior e Coordenador
 
     val bonus: Float
-    if(cargo == "coordenador"){
+    if (cargo == "coordenador") {
         bonus = salario * 0.2f
-    } else if(cargo == "junior") {
+    } else if (cargo == "junior") {
         bonus = salario * 0.5f
-    } else if(cargo == "senior"){
+    } else if (cargo == "senior") {
         bonus = salario * 2
     } else {
         bonus = 0f

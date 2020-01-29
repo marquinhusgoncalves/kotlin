@@ -1,8 +1,8 @@
-fun numberCharacters (stg: String) : Int = stg.length
+fun numberCharacters(stg: String): Int = stg.length
 
-fun showNumberCharacters (stg: String) = println("A String $stg possui ${stg.length} caracteres.")
+fun showNumberCharacters(stg: String) = println("A String $stg possui ${stg.length} caracteres.")
 
-fun main () {
+fun main() {
     println(numberCharacters("Marquinhus"))
     showNumberCharacters("Marquinhus")
 }
